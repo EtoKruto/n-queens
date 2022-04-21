@@ -18,26 +18,27 @@ ___  ___ | |_   _____ _ __ ___
 window.findNRooksSolution = function(n) {
   n = 1;
   let rooksPossible = n;
-  var solution = new Board({n: n});
-  // var solution = [1];
+  // var solution = new Board({'n': n});
+  var solution = [1];
+  solution.n = 1;
 
   // var innerFunction = function (solution) {
 
-    //base
-    // if (!solution.hasAnyRooksConflicts()) {
-    //   solution.togglePiece(0, 0);
-    //   return solution;
-    // }
+  //base
+  // if (!solution.hasAnyRooksConflicts()) {
+  // solution.togglePiece(0, 0);
+  //   return solution;
+  // }
 
 
-    //recursion
-
-
-
+  //recursion
 
 
 
-        // solution.togglePiece(0, 0);
+
+
+
+  // solution.togglePiece(0, 0);
 
 
 
@@ -48,8 +49,8 @@ window.findNRooksSolution = function(n) {
 
   // innerFunction(solution);
 
-solution.set('n', rooksPossible);
-  
+  // solution.set('n', rooksPossible);
+
   // book.set("title", "A Scandal in Bohemia");
 
 

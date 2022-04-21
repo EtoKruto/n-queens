@@ -180,9 +180,7 @@
 
 
       let rows = this.rows();
-
       let size = rows.length;
-      // pieceCount = 0;
 
       for (var b = 0; b < size; b++) {
         let arrOfConflicts = [];
@@ -192,7 +190,6 @@
         for (let i = b; i < size; i++) {
 
           arrOfConflicts.push(rows[i][columnVal]); //0,0 > 1,1 > 2,2 > 3,3
-          console.log(arrOfConflicts);
           columnVal++;
 
         }
@@ -255,7 +252,7 @@
         for (let i = b; i > 0; i--) {
 
           arrOfConflicts.push(rows[i][columnVal]); //0,2 > 1,1 > 2,0
-          console.log(arrOfConflicts);
+          // console.log(arrOfConflicts);
           columnVal++;
 
         }

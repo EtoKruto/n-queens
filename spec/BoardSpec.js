@@ -104,9 +104,9 @@ describe('Board', function() {
 
   describe('Board with major diagonal conflicts', function() {
     var matrix = [
+      [1, 0, 0, 0],
       [0, 1, 0, 0],
       [0, 0, 1, 0],
-      [0, 0, 0, 0],
       [0, 0, 0, 0]
     ];
     var board = new Board(matrix);
